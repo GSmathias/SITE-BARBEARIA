@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva na Barbearia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img id="logoImg" src="logo.jpg" alt="Logo da Barbearia">
+            <header>
+        
+    
+                <h1>Reserva Online - Barbearia Premium</h1>
+                    
+                    
+                </header>
+                
+                    
+            <section id="reserva">
+                <h2>Agende seu Horário</h2>
+        <form id="formReserva">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+
+            <label for="data">Data:</label>
+            
+      
+<input type="date" id="data" name="data" required>
+
+            <label for="hora">Hora:</label>
+            
+           
+<input type="time" id="hora" name="hora" required>
+
+            <button type="submit">Reservar</button>
+        </form>
+
+        <div id="confirmacao" style="display: none;">
+            
+       
+<h3>Reserva Confirmada!</h3>
+            <p>Obrigado pela sua reserva. Você será atendido no dia <span id="dataConfirmada"></span> às <span id="horaConfirmada"></span>.</p>
+        
+  
+        
+ 
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Corte de Cabelo</h3>
+                <img src="cortedecabelo.jpg" alt="Corte de cabelo">
+                <p>Profissionais experientes para um corte moderno e estiloso.</p>
+            </div>
+            <div class="card">
+                <h3>Barba</h3>
+                <img src="barba.jpg" alt="Barba bem feita">
+                <p>Barbeiros qualificados para uma barba bem-feita e definida.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria">
+        <h2>Galeria</h2>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/300" alt="Corte de cabelo">
+            <img src="https://via.placeholder.com/300">
+            <img src="https://via.placeholder.com/300" alt="Design de sobrancelhas">
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Telefone: (61) 9529-0353</p>
+        <p>Email: contato@barbeariapremium.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Barbearia Premium. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
